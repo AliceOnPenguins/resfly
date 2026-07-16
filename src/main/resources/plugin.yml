@@ -1,0 +1,23 @@
+name: ResFly
+version: 1.0.0
+main: com.alice.resfly.ResFlyPlugin
+api-version: '1.20'
+depend: [Residence]
+author: alice
+description: Grants creative flight while inside a residence, toggled with /resfly
+
+commands:
+  resfly:
+    description: Toggle flight while inside a residence
+    usage: /resfly
+
+permissions:
+  resfly.command:
+    description: Allows using the /resfly command
+    default: op
+  resfly.own:
+    description: Allows flying while inside residences you own
+    default: op
+  resfly.all:
+    description: Allows flying while inside any residence, not just your own
+    default: op
