@@ -1,12 +1,12 @@
 # ResFly
 
-Létání jako v creative módu uvnitř residence, přes `/resfly`. Po opuštění residence se létání vypne a zruší se fall dmg.
+Creative flight inside a Residence, via `/resfly`. Flight turns off when leaving the residence, and the resulting fall damage is cancelled.
 
-## Oprávnění
+## Permissions
 
-- `resfly.command` – použití příkazu `/resfly`
-- `resfly.own` – létání na vlastních residencích
-- `resfly.all` – létání na jakékoliv residenci
+- `resfly.command` – use the `/resfly` command
+- `resfly.own` – fly in residences you own
+- `resfly.all` – fly in any residence
 
 ## Build
 
@@ -15,5 +15,3 @@ git clone https://github.com/AliceOnPenguins/resfly
 cd resfly
 mvn clean package
 ```
-
-Jar bude v `target/ResFly.jar`.
